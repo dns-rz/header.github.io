@@ -1,0 +1,109 @@
+/* ini bootstrapcdn */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+/*ini sudah aku default kan */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat",sans-serif;
+}
+/* ini bagian header */
+.download a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 8px 8px;
+}
+.download {
+float: right;
+line-height: 33px;
+position: absolute;
+right: 5%;
+top:	23%;
+background-color: #5aaa4e;
+font-size: 20px;
+border-radius: 8px;
+}
+
+.download:hover {
+	background-color: green;
+}
+
+.download a:hover {
+	color: white;
+}
+
+.bell-1{
+	color: darkgrey;
+	position: absolute;
+	top: 30%;
+	right: 18%;
+	padding:  4px;
+}
+
+.logo1 {
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	top: 7%;
+	left: 3%;
+}
+
+.logo-2 {
+ position: absolute;
+ left: 150px;
+}
+
+.header {
+	height: 100px;
+	padding: 0 20px;
+	background: white;
+	border: none;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 0 32px -4px rgba(0, 0, 0, .15);
+}
+
+.logo {
+	line-height: 33px;
+	float: left;
+	text-transform: uppercase;
+	background: transparent;
+	margin-top: 20px;
+	margin-left: 10px;
+	color: black;
+	text-indent: 100px;
+	font-size: 20px;
+}
+
+.menu{
+	line-height: 100px;
+	background: transparent;
+	float: right;
+	margin-right: 300px;
+
+}
+
+.menu a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 8px;
+	transition: 0.4s;
+	background: transparent;
+	margin: 0 5px;
+	border-radius: 8px;
+}
+
+.menu a:hover{
+	color: black;
+	padding: 8px;
+	background-color: darkgrey;
+}
+.bell-1:hover {
+	background-color: #ecf0f1;
+	color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	padding:  4px;
+}
+/* sampai sini ya guys headernya */
