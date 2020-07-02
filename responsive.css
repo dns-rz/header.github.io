@@ -69,7 +69,10 @@
     .main-body {
         margin-top: 200px;
     }
-
+	
+    .bar {
+        display: contents;
+    }
     /* sampai sini */
     
 }
