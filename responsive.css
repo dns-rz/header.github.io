@@ -1,0 +1,75 @@
+@media all and (max-width: 670px){
+    /* Ini bagiam header */
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        font-size: 18px;
+        text-align: center;
+        text-indent: 0px;
+        margin-top: 100px;
+        margin-left: 0px;
+        float: none;
+    }
+
+    .logo-2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    header {
+        height: 200px;
+        width: 100%;
+        padding: 0px;
+        background-color: rgba(247, 243, 243, 0.9);
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .logo1 {
+        position: absolute;
+        top: 10%;
+        left: 43%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .logo-2 {
+        position: absolute;
+        left: 43%;
+    }
+
+    .bell-1 {
+        float: left;
+        z-index: 10;
+        position: static;
+        margin-left: 40px;
+        margin-top: 15px;
+        color: darkgrey;
+    }
+
+    .menu-icon {
+        float: right;
+        margin-right: 44px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: darkgrey;
+
+    }
+
+    .menu-icon:hover {
+        background-color: #ecf0f1;
+	    color: rgba(0, 0, 0, 0.5);
+	    border-radius: 80;
+    }
+
+    .main-body {
+        margin-top: 200px;
+    }
+
+    /* sampai sini */
+    
+}
