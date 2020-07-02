@@ -2,6 +2,14 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 /*ini sudah aku default kan */
+body{
+	background-color: #f7f7f7;
+}
+
+a{
+	text-decoration: none;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -15,18 +23,18 @@
 	padding: 8px 8px;
 }
 .download {
-float: right;
-line-height: 33px;
-position: absolute;
-right: 5%;
-top:	23%;
-background-color: #5aaa4e;
-font-size: 20px;
-border-radius: 8px;
+	float: right;
+	line-height: 33px;
+	position: absolute;
+	right: 6%;
+	top:	8%;
+	background-color: #008d00;
+	font-size: 17px;
+	border-radius: 8px;
 }
 
 .download:hover {
-	background-color: green;
+	background-color: #23a800;
 }
 
 .download a:hover {
@@ -36,26 +44,26 @@ border-radius: 8px;
 .bell-1{
 	color: darkgrey;
 	position: absolute;
-	top: 30%;
-	right: 18%;
+	top: 10%;
+	right: 17%;
 	padding:  4px;
 }
 
 .logo1 {
-	height: 90px;
-	width: 90px;
+	height: 65px;
+	width: 65px;
 	position: absolute;
-	top: 7%;
 	left: 3%;
+
 }
 
 .logo-2 {
- position: absolute;
- left: 150px;
+	 position: absolute;
+ 	left: 150px;
 }
 
-.header {
-	height: 100px;
+header {
+	height: 65px;
 	padding: 0 20px;
 	background: white;
 	border: none;
@@ -69,41 +77,148 @@ border-radius: 8px;
 	float: left;
 	text-transform: uppercase;
 	background: transparent;
-	margin-top: 20px;
-	margin-left: 10px;
+	margin-left: 20px;
 	color: black;
 	text-indent: 100px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .menu{
-	line-height: 100px;
+	line-height: 60px;
 	background: transparent;
 	float: right;
-	margin-right: 300px;
+	margin-right: 260px;
 
 }
 
 .menu a{
-	color: black;
-	text-transform: uppercase;
+	color: rgba(0,0,0,0.8);
 	text-decoration: none;
 	padding: 0 8px;
-	transition: 0.4s;
+	transition: 0.3s;
 	background: transparent;
 	margin: 0 5px;
 	border-radius: 8px;
 }
 
 .menu a:hover{
-	color: black;
+	color: rgba(0,0,0,0.3);
 	padding: 8px;
-	background-color: darkgrey;
+	background-color: rgba(0,0,0,0.3);
 }
+
+
+
 .bell-1:hover {
 	background-color: #ecf0f1;
 	color: rgba(0, 0, 0, 0.5);
 	border-radius: 50%;
-	padding:  4px;
+	padding: 4px;
 }
 /* sampai sini ya guys headernya */
+
+/*Main */
+.main{
+	height: 700px;
+	width: 100%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.main-body{
+	padding-top: 20px;
+	display: inline-block;
+	height: 100%;
+	width: 93%;	margin-top: 100px;
+}
+
+.pelayanan{
+	background-color: #399f4f;
+	width: 100%;
+	height: 200px;
+	border-radius: 10px;
+	color:white;
+
+}
+
+.pelayanan .number{
+	font-size: 30px;
+	line-height: 150px;
+	margin-top: 10px;
+	padding-right: 10px;
+	float: left;
+	margin-left: 50px;
+	border-right: 1px white solid;
+	padding-bottom: 20px;
+}
+
+.txt-head{
+	padding: 20px;
+}
+
+.txt{
+	width: 620px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.txt h1{
+	margin-bottom: 10px;
+}
+
+.contact img{
+	width: 600px;
+	float: right;
+	border-radius: 10px;
+	border: 5px white solid ;
+}
+
+.contact{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.blok{
+	background-color: white;
+	margin-right: 640px;
+	border-radius: 10px;
+	height: 160px;
+	box-shadow: 0px 0px 10px 0px gray;
+}
+
+.call-center{
+	margin-top: 23px;
+}
+
+.blok h3{
+	font-weight: normal;
+	padding-top: 15px;	
+}
+
+.icon{
+	padding-top: 30px;
+	display: inline-block;
+	width: 220px;
+	color: #48bb78;
+}
+
+i{
+	float: left;
+}
+
+.klik{ 
+	font-size: 25px;
+}
+
+.blok a{
+	height: 100%;
+	color: black;
+	display: block;
+}
+
+.blok a:hover{
+	background-color: rgba(9,186,135,0.26);
+	transition: 1s;
+}
+
+/* Finish main */
